@@ -1,6 +1,7 @@
-
+.idea
 *.class
 .project
 .DS_Store
 .classpath
 *.prefs
+JavaTutorial.iml
