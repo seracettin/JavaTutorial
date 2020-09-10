@@ -29,7 +29,7 @@ public class StreamBoxed {
 		 * .collect(Collectors.toList());
 		 */
 
-		//1. IntStream – stream of ints
+		//1. IntStream  stream of ints
 
 		List<Integer> ints = IntStream.of(1,2,3,4,5)
 		                .boxed()
@@ -44,7 +44,7 @@ public class StreamBoxed {
 
 		System.out.println(max);
 
-		//2. LongStream – stream of longs
+		//2. LongStream  stream of longs
 
 		List<Long> longs = LongStream.of(1l,2l,3l,4l,5l)
                 .boxed()
@@ -52,7 +52,7 @@ public class StreamBoxed {
 
 		System.out.println(longs);
 
-		//3. DoubleStream – stream of doubles
+		//3. DoubleStream  stream of doubles
 
 		List<Double> doubles = DoubleStream.of(1d,2d,3d,4d,5d)
                 .boxed()
