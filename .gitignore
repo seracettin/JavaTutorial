@@ -5,3 +5,4 @@
 .classpath
 *.prefs
 JavaTutorial.iml
+/out/production/JavaTutorial/META-INF/JavaTutorial.kotlin_module
