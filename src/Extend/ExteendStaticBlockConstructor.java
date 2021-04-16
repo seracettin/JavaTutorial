@@ -6,25 +6,31 @@ public class ExteendStaticBlockConstructor {
         //P2S1P1P3S2S3
     }
 }
-class Person{
+
+class Person {
     {
-        System.out.println("P1");
+        System.out.print("P1");
     }
+
     static {
-        System.out.println("P2");
+        System.out.print("P2");
     }
+
     public Person() {
-        System.out.println("P3");
+        System.out.print("P3");
     }
 }
-class Student extends Person{
+
+class Student extends Person {
     static {
-        System.out.println("S1");
+        System.out.print("S1");
     }
+
     {
-        System.out.println("S2");
+        System.out.print("S2");
     }
+
     public Student() {
-        System.out.println("S3");
+        System.out.print("S3");
     }
 }
